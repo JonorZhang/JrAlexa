@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA3158402133E63900A8AC97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31583F2133E63900A8AC97 /* AppDelegate.m */; };
+		EA3158432133E63900A8AC97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3158422133E63900A8AC97 /* ViewController.m */; };
+		EA3158462133E63900A8AC97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3158442133E63900A8AC97 /* Main.storyboard */; };
+		EA3158482133E63B00A8AC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3158472133E63B00A8AC97 /* Assets.xcassets */; };
+		EA31584B2133E63B00A8AC97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3158492133E63B00A8AC97 /* LaunchScreen.storyboard */; };
+		EA31584E2133E63B00A8AC97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31584D2133E63B00A8AC97 /* main.m */; };
+		EA3158562133F43D00A8AC97 /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3158552133F43D00A8AC97 /* AudioManager.m */; };
+		EA3158592133F45A00A8AC97 /* AlexaClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3158582133F45A00A8AC97 /* AlexaClient.m */; };
+		EA31585C2133F49400A8AC97 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA31585B2133F49400A8AC97 /* Security.framework */; };
+		EA31585E2133F4A400A8AC97 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA31585D2133F4A400A8AC97 /* SafariServices.framework */; };
+		EA3158642133F51100A8AC97 /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3158632133F51000A8AC97 /* LoginWithAmazon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA31583B2133E63900A8AC97 /* JrAlexa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JrAlexa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA31583E2133E63900A8AC97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA31583F2133E63900A8AC97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA3158412133E63900A8AC97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA3158422133E63900A8AC97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA3158452133E63900A8AC97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA3158472133E63B00A8AC97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA31584A2133E63B00A8AC97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA31584C2133E63B00A8AC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA31584D2133E63B00A8AC97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA3158542133F43D00A8AC97 /* AudioManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		EA3158552133F43D00A8AC97 /* AudioManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
+		EA3158572133F45A00A8AC97 /* AlexaClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlexaClient.h; sourceTree = "<group>"; };
+		EA3158582133F45A00A8AC97 /* AlexaClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexaClient.m; sourceTree = "<group>"; };
+		EA31585B2133F49400A8AC97 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EA31585D2133F4A400A8AC97 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		EA3158632133F51000A8AC97 /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoginWithAmazon.framework; path = JrAlexa/LoginWithAmazon.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA3158382133E63900A8AC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3158642133F51100A8AC97 /* LoginWithAmazon.framework in Frameworks */,
+				EA31585E2133F4A400A8AC97 /* SafariServices.framework in Frameworks */,
+				EA31585C2133F49400A8AC97 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA3158322133E63900A8AC97 = {
+			isa = PBXGroup;
+			children = (
+				EA31583D2133E63900A8AC97 /* JrAlexa */,
+				EA31583C2133E63900A8AC97 /* Products */,
+				EA31585A2133F49400A8AC97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA31583C2133E63900A8AC97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA31583B2133E63900A8AC97 /* JrAlexa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA31583D2133E63900A8AC97 /* JrAlexa */ = {
+			isa = PBXGroup;
+			children = (
+				EA31583E2133E63900A8AC97 /* AppDelegate.h */,
+				EA31583F2133E63900A8AC97 /* AppDelegate.m */,
+				EA3158412133E63900A8AC97 /* ViewController.h */,
+				EA3158422133E63900A8AC97 /* ViewController.m */,
+				EA3158542133F43D00A8AC97 /* AudioManager.h */,
+				EA3158552133F43D00A8AC97 /* AudioManager.m */,
+				EA3158572133F45A00A8AC97 /* AlexaClient.h */,
+				EA3158582133F45A00A8AC97 /* AlexaClient.m */,
+				EA3158442133E63900A8AC97 /* Main.storyboard */,
+				EA3158472133E63B00A8AC97 /* Assets.xcassets */,
+				EA3158492133E63B00A8AC97 /* LaunchScreen.storyboard */,
+				EA31584C2133E63B00A8AC97 /* Info.plist */,
+				EA31584D2133E63B00A8AC97 /* main.m */,
+			);
+			path = JrAlexa;
+			sourceTree = "<group>";
+		};
+		EA31585A2133F49400A8AC97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA3158632133F51000A8AC97 /* LoginWithAmazon.framework */,
+				EA31585D2133F4A400A8AC97 /* SafariServices.framework */,
+				EA31585B2133F49400A8AC97 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA31583A2133E63900A8AC97 /* JrAlexa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3158512133E63B00A8AC97 /* Build configuration list for PBXNativeTarget "JrAlexa" */;
+			buildPhases = (
+				EA3158372133E63900A8AC97 /* Sources */,
+				EA3158382133E63900A8AC97 /* Frameworks */,
+				EA3158392133E63900A8AC97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JrAlexa;
+			productName = JrAlexa;
+			productReference = EA31583B2133E63900A8AC97 /* JrAlexa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA3158332133E63900A8AC97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Jonor;
+				TargetAttributes = {
+					EA31583A2133E63900A8AC97 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EA3158362133E63900A8AC97 /* Build configuration list for PBXProject "JrAlexa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA3158322133E63900A8AC97;
+			productRefGroup = EA31583C2133E63900A8AC97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA31583A2133E63900A8AC97 /* JrAlexa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA3158392133E63900A8AC97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA31584B2133E63B00A8AC97 /* LaunchScreen.storyboard in Resources */,
+				EA3158482133E63B00A8AC97 /* Assets.xcassets in Resources */,
+				EA3158462133E63900A8AC97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA3158372133E63900A8AC97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3158432133E63900A8AC97 /* ViewController.m in Sources */,
+				EA31584E2133E63B00A8AC97 /* main.m in Sources */,
+				EA3158562133F43D00A8AC97 /* AudioManager.m in Sources */,
+				EA3158402133E63900A8AC97 /* AppDelegate.m in Sources */,
+				EA3158592133F45A00A8AC97 /* AlexaClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA3158442133E63900A8AC97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3158452133E63900A8AC97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA3158492133E63B00A8AC97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA31584A2133E63B00A8AC97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA31584F2133E63B00A8AC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA3158502133E63B00A8AC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA3158522133E63B00A8AC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3FWM26YDF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/JrAlexa",
+				);
+				INFOPLIST_FILE = JrAlexa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonor.JrAlexa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA3158532133E63B00A8AC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3FWM26YDF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/JrAlexa",
+				);
+				INFOPLIST_FILE = JrAlexa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonor.JrAlexa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA3158362133E63900A8AC97 /* Build configuration list for PBXProject "JrAlexa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA31584F2133E63B00A8AC97 /* Debug */,
+				EA3158502133E63B00A8AC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3158512133E63B00A8AC97 /* Build configuration list for PBXNativeTarget "JrAlexa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3158522133E63B00A8AC97 /* Debug */,
+				EA3158532133E63B00A8AC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA3158332133E63900A8AC97 /* Project object */;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIKey</key>
+	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50LjdmYWYzYzdkYmE4OTQ5OWViZWVkMzgxOTczZjBjZjcwIiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi5mMjdhMjZjMjI3M2Q0ZmIwYmFkZTUxOTk0NWZkYTdjZCIsImJ1bmRsZVNlZWRJZCI6ImNvbS5qb25vci5KckFsZXhhIiwiYnVuZGxlSWQiOiJjb20uam9ub3IuSnJBbGV4YSIsImlzcyI6IkFtYXpvbiIsInR5cGUiOiJBUElLZXkiLCJhcHBWYXJpYW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1jbGllbnQuMmY0MDI4NjhkYzEyNDI1NGJkMGE0MjJiZWM5NTZkZWYiLCJ0cnVzdFBvb2wiOm51bGwsImFwcElkIjoiYW16bjEuYXBwbGljYXRpb24tY2xpZW50LjJmNDAyODY4ZGMxMjQyNTRiZDBhNDIyYmVjOTU2ZGVmIiwiaWQiOiJmYzFlMzg1YS1hOWRmLTExZTgtODFmMS0xNzc2ZDFkMWFlNzEiLCJpYXQiOiIxNTM1MzY0MDEwNzM1In0=.P4WHhoVpkBKQi/huHdslZ5AQxuOjF7dyNKzhR8blwkBpJ7fYyxvZrksfFS8EtN0vQDyZfHzVXtJToienczlV7EEr0IfjbFpvUTrqMrJnl2d/S65YvLCbsmX6t6Uz052Uca1w8ngHq4X1xzIDpesMnkL/DZ7XuNFB6cqrgi3EFGaXvoKd2hTkzaSCtstfZyKMybzqMnE46x1i1vkVxjgpB62WC94pKaqcTOQpIGWiT6FB1QEyQa8++sAuF2GPaIqwuAufVwzBzjx9tUQ43w7L/kuuMY60ildmxQwNCVPFD8FssYoHNrtCRJRpjYa3XJYK6txLF/RiQ0onIHrmDuoU5A==</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.jonor.JrAlexa</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amzn-com.jonor.JrAlexa</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Record</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
