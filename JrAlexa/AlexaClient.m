@@ -12,7 +12,7 @@
 
 NSString * const kContentTypeJSON = @"application/json";
 NSString * const kContentTypeAudio = @"application/octet-stream";
-NSString * const kAMZNProductId = @"jonorAlexa";
+NSString * const kProductId = @"jonorAlexa";
 
 
 static NSString * const kBaseURL = @"https://avs-alexa-na.amazon.com";
@@ -150,7 +150,7 @@ static id client;
     AMZNAuthorizeRequest *request = [[AMZNAuthorizeRequest alloc] init];
     request.interactiveStrategy = interactiveStrategy;
     
-    NSDictionary *scopeData = @{@"productID": kAMZNProductId,
+    NSDictionary *scopeData = @{@"productID": kProductId,
                                 @"productInstanceAttributes": @{@"deviceSerialNumber": productDsn}};
     id<AMZNScope> alexaAllScope = [AMZNScopeFactory scopeWithName:@"alexa:all" data:scopeData];
     request.scopes = @[alexaAllScope, [AMZNProfileScope profile]];
@@ -253,7 +253,7 @@ static id client;
 }
 
 
-- (NSArray<NSData *> *)splitData:(NSData *)data withBoundary:(NSString *)boundary {
+- (NSArray<NSDictionary *> *)splitData:(NSData *)data withBoundary:(NSString *)boundary {
     NSData *head_boundaryData = [[NSString stringWithFormat:@"--%@\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding];
     NSData *inner_boundaryData = [[NSString stringWithFormat:@"\r\n--%@", boundary] dataUsingEncoding:NSUTF8StringEncoding];
     //    NSData *tail_boundaryData = [[NSString stringWithFormat:@"\r\n--%@--", boundary] dataUsingEncoding:NSUTF8StringEncoding];
